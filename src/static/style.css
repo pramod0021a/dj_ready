@@ -1,6 +1,30 @@
-h1{
-   color: red;
+/*  variales*/
+:root {   
+   --red: #FB8500;   
 }
+/*  universal settings*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Montserrat", sans-serif;   
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: "Oswald", sans-serif;   
+}
+h1{
+   color: var(--red);
+}
+/* media query */
 @media only screen and (max-width: 468px) {}
 @media only screen and (max-width: 768px) {}
 @media only screen and (min-width: 1024px) {}
